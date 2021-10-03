@@ -1,0 +1,285 @@
+html {
+    font-size: 62.5%;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #8b0003;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #8b0003;
+  }
+  .right {
+    width: 70%;
+    height: 100vh;
+  }
+  .left {
+    width: 30%;
+    height: 100vh;
+    background-color: #8b0003;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://i.pinimg.com/originals/d8/71/44/d87144f81ac17ad2ccb567ccece776f3.gif),
+      url(https://www.vuurwerk-vrouwen.nl/wpimages/wpca00636e.gif),
+      url(https://i.pinimg.com/originals/d8/71/44/d87144f81ac17ad2ccb567ccece776f3.gif),
+      url(https://img1.picmix.com/output/stamp/normal/4/1/7/8/118714_5c3b0.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+  .top {
+    width: 100%;
+    height: 70vh;
+    background-color: #8b0003;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .bottom {
+    width: 100%;
+    height: 30vh;
+    background-color: #8b0003;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .invite {
+    width: 30%;
+    height: 100%;
+    background-color: #8b0003;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .address {
+    width: 30%;
+    height: 100%;
+    background-color: #8b0003;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .phone {
+    width: 30%;
+    height: 100%;
+    background-color: #8b0003;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .white {
+    color: white;
+    font-size: 2.3rem;
+    text-align: center;
+  }
+  .style {
+    font-size: 6rem;
+    font-family: "Style Script", cursive;
+    color: #fff61c;
+    text-align: center;
+  }
+  .button {
+    color: #8b0003;
+    font-size: 2.3rem;
+    border: 0.1rem solid #fff61c;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: #fff61c;
+    border-radius: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #8b0003;
+    border: 0.1rem solid #fff61c;
+    color: #fff61c;
+  }
+  @media screen and (max-width: 320px) {
+    html {
+      font-size: 43%;
+    }
+    .container {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .right {
+      width: 100%;
+      height: 50vh;
+    }
+    .left {
+      width: 100%;
+      height: 50vh;
+    }
+    .bottom {
+      width: 100%;
+      height: 100vh;
+      background-color: #8b0003;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .invite {
+      width: 100%;
+      height: 32vh;
+    }
+    .address {
+      width: 100%;
+      height: 32vh;
+    }
+    .phone {
+      width: 100%;
+      height: 32vh;
+    }
+  }
+  @media screen and (min-width: 321px) and (max-width: 375px) {
+    html {
+      font-size: 47%;
+    }
+    .container {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .right {
+      width: 100%;
+      height: 50vh;
+    }
+    .left {
+      width: 90%;
+      height: 50vh;
+    }
+    .bottom {
+      width: 100%;
+      height: 100vh;
+      background-color: #8b0003;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .invite {
+      width: 100%;
+      height: 32vh;
+    }
+    .address {
+      width: 100%;
+      height: 32vh;
+    }
+    .phone {
+      width: 100%;
+      height: 32vh;
+    }
+  }
+  @media screen and (min-width: 376px) and (max-width: 425px) {
+    html {
+      font-size: 50%;
+    }
+    .container {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .right {
+      width: 100%;
+      height: 50vh;
+    }
+    .left {
+      width: 80%;
+      height: 50vh;
+    }
+    .bottom {
+      width: 100%;
+      height: 100vh;
+      background-color: #8b0003;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .invite {
+      width: 100%;
+      height: 32vh;
+    }
+    .address {
+      width: 100%;
+      height: 32vh;
+    }
+    .phone {
+      width: 100%;
+      height: 32vh;
+    }
+  }
+  @media screen and (min-width: 426px) and (max-width: 768px) {
+    html {
+      font-size: 60%;
+    }
+    .container {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .right {
+      width: 100%;
+      height: 50vh;
+    }
+    .left {
+      width: 50%;
+      height: 50vh;
+    }
+    .bottom {
+      width: 100%;
+      height: 100vh;
+      background-color: #8b0003;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .invite {
+      width: 100%;
+      height: 32vh;
+    }
+    .address {
+      width: 100%;
+      height: 32vh;
+    }
+    .phone {
+      width: 100%;
+      height: 32vh;
+    }
+  }
+  @media screen and (min-width: 426px) and (max-width: 768px) and (orientation: landscape) {
+    html {
+      font-size: 35%;
+    }
+    .left {
+      width: 30%;
+    }
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    html {
+      font-size: 60%;
+    }
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+    html {
+      font-size: 35%;
+    }
+  }
+  @media screen and (min-width: 1025px) and (max-width: 1440px) {
+    html {
+      font-size: 55%;
+    }
+  }
